@@ -31,7 +31,7 @@
                         <a href="#">EcoMoney</a>
                     </li>
                     <li>
-                        <a href="#">Cadastro</a>
+                        <a href="#" onclick="document.getElementById('id02').style.display='block'">Cadastro</a>
                     </li>
                     <li>
                         <a href="#">Notícias</a>
@@ -334,12 +334,35 @@
                             <i>Google Cloud Platform (GCP):</i> Garantimos alta disponibilidade, segurança de dados e
                             capacidade de processamento em nuvem. O GCP nos permite escalar o GoodPay de forma
                             sustentável, garantindo que a plataforma cresça junto com o nosso impacto social. <br>
-                            <i>Firebase:</i> Utilizamos o Firebase para gerenciar dados em tempo real, autenticação segura de
+                            <i>Firebase:</i> Utilizamos o Firebase para gerenciar dados em tempo real, autenticação
+                            segura de
                             usuários e integração ágil. Essa escolha tecnológica nos permite focar no que realmente
                             importa: a experiência do usuário e a entrega de valor, mantendo o sistema rápido e
                             confiável. <br>
                         </p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section name="modal-cadastro">
+            <div id="id02" class="w3-modal">
+                <div class="w3-modal-content w3-animate-top w3-card-4">
+                    <header class="w3-container w3-pale-green">
+                        <span onclick="document.getElementById('id02').style.display='none'"
+                            class="w3-button w3-display-topright">&times;
+                        </span>
+                        <h2>Registre-se no GoodPay</h2>
+                    </header>
+                    <form action="" class="w3-container w3-padding-64">
+                        <p>
+                            <input class="w3-input" type="text">
+                            <label>nome </label>
+                        <p>
+                            <input class="w3-input" type="text">
+                            <label>senha </label>
+                        </p>
+                        </p>
+                    </form>
                 </div>
             </div>
         </section>

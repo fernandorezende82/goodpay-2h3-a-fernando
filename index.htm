@@ -353,16 +353,48 @@
                         </span>
                         <h2>Registre-se no GoodPay</h2>
                     </header>
-                    <form action="" class="w3-container w3-padding-64">
+                    <form action="" class="w3-container w3-padding-64 goodpay-cadastro">
                         <p>
                             <input class="w3-input" type="text">
                             <label>nome </label>
                         <p>
                             <input class="w3-input" type="text">
                             <label>senha </label>
+                        <p>
+                            <input class="w3-input" type="text">
+                            <label>E-mail</label>
                         </p>
+                        <p>
+                            <hr>
+                        </p>
+                        <select class="w3-select" id="regra">
+                            <option value="" disabled selected>Escolha um perfil</option>
+                            <option value="admin">Administrador</option>
+                            <option value="user">Usuário</option>
+                        </select>
+                        <p>
+                            <hr>
+                        </p>
+                        <p>
+                            <input type="radio" name="genero" id="genero" checked value="M" class="w3-radio">
+                            <label>Masculino</label>
+                            <input type="radio" name="genero" id="genero" checked value="F" class="w3-radio">
+                            <label>Feminino</label>
+                            <input type="radio" name="genero" id="genero" checked value="O" class="w3-radio">
+                            <label>Outro</label>
+                            <input type="radio" name="genero" id="genero" checked value="N" class="w3-radio">
+                            <label>Não Declarar</label>
+                        </p>
+                        </p>
+                        <hr>
+                        </p>
+                        <p>
+                            <button class="w3-btn w3-block w3-green">
+                                Enviar Cadastro
+                            </button>
                         </p>
                     </form>
+
                 </div>
             </div>
         </section>

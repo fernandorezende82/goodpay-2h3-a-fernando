@@ -28,7 +28,7 @@
                         <a href="#">Programa</a>
                     </li>
                     <li>
-                        <a href="#">EcoMoney</a>
+                        <a href="#" onclick="document.getElementById('id04').style.display='block'">EcoMoney</a>
                     </li>
                     <li>
                         <a href="#" onclick="document.getElementById('id02').style.display='block'">Cadastro</a>
@@ -68,7 +68,10 @@
                         <h2>Cashback</h2>
                         <img src="./img/card1.png" style="width: 100%;">
                         <div class="w3-container w3-center">
-                            <p>Promoção: Volte para o jogo com cashback de crétitos ESG. O game não pode parar.</p>
+                            <p>
+                                Promoção: Volte para o jogo com cashback de crétitos ESG.
+                                O game não pode parar.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -77,7 +80,10 @@
                         <h2>Planeje Bem</h2>
                         <img src="./img/card2.png" style="width: 100%;">
                         <div class="w3-container w3-center">
-                            <p>Planejamento para metas futuras com uso de renda com mais de 105% do CDB.</p>
+                            <p>
+                                Planejamento para metas futuras com uso de
+                                renda com mais de 105% do CDB.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -86,7 +92,9 @@
                         <h2>ECO Pig</h2>
                         <img src="./img/card3.png" style="width: 100%;">
                         <div class="w3-container w3-center">
-                            <p>Porquinho de ações para investimento em StartUp de Eco empresas lucrativas.</p>
+                            <p>Porquinho de ações para investimento em StartUp
+                                de Eco empresas lucrativas.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -97,7 +105,10 @@
                         <h2>App GoodPlan</h2>
                         <img src="./img/card4.png" style="width: 100%;">
                         <div class="w3-container w3-center">
-                            <p>Planeje seus gastos com nosso aplicativo de listagem de gastos.</p>
+                            <p>
+                                Planeje seus gastos com nosso
+                                aplicativo de listagem de gastos. Com uso de nossos gráficos.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -106,7 +117,11 @@
                         <h2>Club Good</h2>
                         <img src="./img/card5.png" style="width: 100%;">
                         <div class="w3-container w3-center">
-                            <p>Receba Créditos para gastar com viajens cinema e outros Beneficios</p>
+                            <p>
+                                Receba Créditos para gastar com
+                                viajens cinema e outros Beneficios e gaste
+                                com que você gosta.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -115,7 +130,10 @@
                         <h2>Black Friday</h2>
                         <img src="./img/card6.png" style="width: 100%;">
                         <div class="w3-container w3-center">
-                            <p>Em novembro os crétitos vem em dobro, nada de ficar sem planos.</p>
+                            <p>
+                                Em novembro os crétitos vem em dobro,
+                                nada de ficar sem planos, é black das blacks!
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -126,7 +144,10 @@
                         <h2>Gaste com Bem</h2>
                         <img src="./img/card7.png" style="width: 100%;">
                         <div class="w3-container w3-center">
-                            <p>Doe seus créditos para entidades que fazem a diferênça em nosso país</p>
+                            <p>
+                                Doe seus créditos para entidades que
+                                fazem a diferênça em nosso país
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -135,7 +156,10 @@
                         <h2>Pequenos Beneficios</h2>
                         <img src="./img/card8.png" style="width: 100%;">
                         <div class="w3-container w3-center">
-                            <p>Use o nosso cartão e ganhe pequenos mimos em nossos paceiros de venda</p>
+                            <p>
+                                Use o nosso cartão e ganhe pequenos
+                                mimos em nossos paceiros de venda
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -144,7 +168,9 @@
                         <h2>Porquinho Verde</h2>
                         <img src="./img/card9.png" style="width: 100%;">
                         <div class="w3-container w3-center">
-                            <p>Invista em créditos verdes e ganhe com ações e investimentos ESG que podem render muito
+                            <p>
+                                Invista em créditos verdes e ganhe com ações e
+                                investimentos ESG que podem render muito
                             </p>
                         </div>
                     </div>
@@ -154,10 +180,12 @@
         <section name="perguntas-frequentes">
             <div class="w3-container w3-center goodpay-faq">
                 <h1>FAQ - Dúvidas Frequêntes</h1>
-                <button onclick="funcaoAccordeon('itens1')" class="w3-button w3-block w3-green w3-left-align">O qué o
-                    GoodPay? Como faço para me cadastrar?</button>
-                <div id="itens1" class="w3-hide">
-                    <span class="w3-block w3-left-align">
+                <hr>
+                <button onclick="faqFunction('item1')" class="w3-button w3-block w3-green w3-left-align">
+                    O que é o GoodPay? Como faço para me cadastrar?
+                </button>
+                <div id="item1" class="w3-hide">
+                    <span class="w3-block w3-left-align" style="padding: 5px;">
                         Ao economizar com uso de creditos ESG, as empresas parceiras do GoodPay,
                         geram créditos com uso consiênte ou redução de impostos
                         estes dinheiro vira cashback para nossos assinantes que poderá
@@ -168,121 +196,135 @@
                         O mundo onde tudo se transforma e ajuda.
                     </span>
                 </div>
-                <button onclick="funcaoAccordeon('itens2')" class="w3-button w3-block w3-green w3-left-align">Como posso
-                    utilizar o meu cashback do GoodPay?</button>
-                <div id="itens2" class="w3-hide">
-                    <span class="w3-block w3-left-align">
-                        Seu cashback pode ser revertido em benefícios exclusivos na nossa plataforma ou utilizado como
+                <button onclick="faqFunction('item2')" class="w3-button w3-block w3-green w3-left-align">
+                    Como posso utilizar o meu cashback do GoodPay?
+                </button>
+                <div id="item2" class="w3-hide">
+                    <span class="w3-block w3-left-align" style="padding: 5px;">
+                        Seu cashback pode ser revertido em benefícios exclusivos na nossa plataforma ou utilizado
+                        como
                         forma de pagamento na nossa rede de parceiros. Você pode usá-lo para comprar produtos de
                         agricultores sustentáveis, abater custos com redes de energia solar ou consumir em qualquer
                         estabelecimento credenciado que apoie a economia sustentável.
                     </span>
                 </div>
-                <button onclick="funcaoAccordeon('itens3')" class="w3-button w3-block w3-green w3-left-align">O que são
-                    os "Créditos ESG" e de onde vem o dinheiro do cashback?</button>
-                <div id="itens3" class="w3-hide">
-                    <span class="w3-block w3-left-align">
-                        A sigla ESG refere-se a práticas Ambientais, Sociais e de Governança. Quando nossas empresas
-                        parceiras adotam práticas sustentáveis, elas geram economia e redução de impostos. Parte desse
-                        valor que seria gasto pelas empresas é transformado no dinheiro (cashback) que volta para você,
+                <button onclick="faqFunction('item3')" class="w3-button w3-block w3-green w3-left-align">
+                    O que são os "Créditos ESG" e de onde vem o dinheiro do cashback?
+                </button>
+                <div id="item3" class="w3-hide">
+                    <span class="w3-block w3-left-align" style="padding: 5px;">
+                        A sigla ESG refere-se a práticas Ambientais, Sociais e de Governança. Quando nossas
+                        empresas
+                        parceiras adotam práticas sustentáveis, elas geram economia e redução de impostos. Parte
+                        desse
+                        valor que seria gasto pelas empresas é transformado no dinheiro (cashback) que volta
+                        para você,
                         nossos assinantes, alimentando um ciclo de consumo consciente.
                     </span>
                 </div>
-                <button onclick="funcaoAccordeon('itens4')" class="w3-button w3-block w3-green w3-left-align">
-                    Quais tipos de negócios fazem parte da rede de parceiros do GoodPay?</button>
-                <div id="itens4" class="w3-hide">
-                    <span class="w3-block w3-left-align">
-                        Nossa rede é formada por empresas e iniciativas que pensam no amanhã. Isso inclui agricultores
-                        focados em produção orgânica e sustentável, fornecedores de energia limpa (solar), projetos de
-                        preservação como as Eco Barreiras, e centros de reciclagem e remontagem de equipamentos.
+                <button onclick="faqFunction('item4')" class="w3-button w3-block w3-green w3-left-align">
+                    Quais tipos de negócios fazem parte da rede de parceiros do GoodPay?
+                </button>
+                <div id="item4" class="w3-hide">
+                    <span class="w3-block w3-left-align" style="padding: 5px;">
+                        Nossa rede é formada por empresas e iniciativas que pensam no amanhã. Isso inclui
+                        agricultores
+                        focados em produção orgânica e sustentável, fornecedores de energia limpa (solar),
+                        projetos de
+                        preservação como as Eco Barreiras, e centros de reciclagem e remontagem de
+                        equipamentos.
                     </span>
                 </div>
-                <button onclick="funcaoAccordeon('itens5')" class="w3-button w3-block w3-green w3-left-align">
+                <button onclick="faqFunction('item5')" class="w3-button w3-block w3-green w3-left-align">
                     O que são as "Eco Barreiras" apoiadas pelo GoodPay?
                 </button>
-                <div id="itens5" class="w3-hide">
-                    <span class="w3-block w3-left-align">
+                <div id="item5" class="w3-hide">
+                    <span class="w3-block w3-left-align" style="padding: 5px;">
                         As Eco Barreiras são estruturas instaladas em rios e córregos para conter e recolher o lixo
                         flutuante antes que chegue aos oceanos. Ao utilizar o GoodPay, você ajuda a financiar direta e
                         indiretamente a manutenção e criação dessas barreiras, promovendo a limpeza das nossas águas.
                     </span>
                 </div>
-                <button onclick="funcaoAccordeon('itens6')" class="w3-button w3-block w3-green w3-left-align">
+                <button onclick="faqFunction('item6')" class="w3-button w3-block w3-green w3-left-align">
                     Como o GoodPay atua na reciclagem e remontagem de equipamentos?
                 </button>
-                <div id="itens6" class="w3-hide">
-                    <span class="w3-block w3-left-align">
+                <div id="item6" class="w3-hide">
+                    <span class="w3-block w3-left-align" style="padding: 5px;">
                         Temos parcerias com cooperativas e empresas de tecnologia sustentável que recolhem equipamentos
                         eletrônicos descartados. Eles realizam a reciclagem adequada dos materiais ou a remontagem de
                         novas máquinas a partir de peças usadas, reduzindo o lixo eletrônico (e-waste) e promovendo a
                         inclusão digital.
                     </span>
                 </div>
-                <button onclick="funcaoAccordeon('itens7')" class="w3-button w3-block w3-green w3-left-align">
+                <button onclick="faqFunction('item7')" class="w3-button w3-block w3-green w3-left-align">
                     Existe algum custo ou mensalidade para me tornar um assinante?
                 </button>
-                <div id="itens7" class="w3-hide">
-                    <span class="w3-block w3-left-align">
+                <div id="item7" class="w3-hide">
+                    <span class="w3-block w3-left-align" style="padding: 5px;">
                         O cadastro básico no GoodPay é gratuito! Nosso maior objetivo é criar uma rede forte e engajada
                         na economia sustentável. Podem existir planos de assinatura premium com benefícios maximizados
                         no futuro, mas a participação na nossa rede de transformação é aberta a todos.
                     </span>
                 </div>
-                <button onclick="funcaoAccordeon('itens8')" class="w3-button w3-block w3-green w3-left-align">
+                <button onclick="faqFunction('item8')" class="w3-button w3-block w3-green w3-left-align">
                     Posso usar meu cashback para fazer doações?
                 </button>
-                <div id="itens8" class="w3-hide">
-                    <span class="w3-block w3-left-align">
+                <div id="item8" class="w3-hide">
+                    <span class="w3-block w3-left-align" style="padding: 5px;">
                         Com certeza! Fiel ao nosso lema "O mundo onde tudo se transforma e ajuda", você pode destinar
                         parte ou a totalidade do seu cashback diretamente para ONGs e projetos ambientais parceiros
                         cadastrados na nossa plataforma, multiplicando o impacto positivo das suas ações.
                     </span>
                 </div>
-                <button onclick="funcaoAccordeon('itens9')" class="w3-button w3-block w3-green w3-left-align">
+                <button onclick="faqFunction('item9')" class="w3-button w3-block w3-green w3-left-align">
                     Minha empresa adota práticas sustentáveis. Como faço para ser parceira do GoodPay?
                 </button>
-                <div id="itens9" class="w3-hide">
-                    <span class="w3-block w3-left-align">
+                <div id="item9" class="w3-hide">
+                    <span class="w3-block w3-left-align" style="padding: 5px;">
                         Ficamos felizes com o interesse! Empresas que possuem práticas de uso consciente de recursos e
                         alinhamento ESG podem se inscrever na nossa aba "Para Empresas". Nossa equipe fará uma avaliação
                         e ajudará a integrar seu negócio à nossa rede, permitindo que você ofereça benefícios e receba
                         clientes da nossa comunidade.
                     </span>
                 </div>
-                <button onclick="funcaoAccordeon('itens10')" class="w3-button w3-block w3-green w3-left-align">
+                <button onclick="faqFunction('item10')" class="w3-button w3-block w3-green w3-left-align">
                     Como faço para acompanhar meu saldo e o impacto sustentável que estou gerando?
                 </button>
-                <div id="itens10" class="w3-hide">
-                    <span class="w3-block w3-left-align">
+                <div id="item10" class="w3-hide">
+                    <span class="w3-block w3-left-align" style="padding: 5px;">
                         Através do seu painel de controle logado no site ou no nosso aplicativo. Lá, você visualiza de
                         forma transparente o seu saldo em reais disponível para uso e um relatório mostrando os setores
                         sustentáveis que você apoiou com as suas movimentações financeiras.
                     </span>
                 </div>
+                <hr>
             </div>
         </section>
         <section name="modal-sobrenos">
             <div id="id01" class="w3-modal">
                 <div class="w3-modal-content w3-card-4 w3-animate-zoom">
-                    <header class="w3-content w3-lime">
+                    <header class="w3-container w3-pale-green">
                         <span onclick="document.getElementById('id01').style.display='none'"
-                            class="w3-button w3-lime w3-xlarge w3-display-topright">&times;</span>
+                            class="w3-pale-green w3-button w3-xlarge w3-display-topright">
+                            &times;
+                        </span>
                         <h1>Sobre Nós</h1>
                     </header>
                     <div class="w3-bar w3-border-bottom">
-                        <button class="tablink w3-bar-item w3-button" onclick="openAboutUs(event, 'historia')">
+                        <button class="tablink w3-bar-item w3-button" onclick="openAboutUs(event,'historia')">
                             Nossa História
                         </button>
-                        <button class="tablink w3-bar-item w3-button" onclick="openAboutUs(event, 'missao')">
+                        <button class="tablink w3-bar-item w3-button" onclick="openAboutUs(event,'missao')">
                             Missão e Valores
                         </button>
-                        <button class="tablink w3-bar-item w3-button" onclick="openAboutUs(event, 'tecnologia')">
+                        <button class="tablink w3-bar-item w3-button" onclick="openAboutUs(event,'tecnologia')">
                             Tecnologia e Inovação
                         </button>
                     </div>
-                    <div id="historia" class="w3-content page">
+                    <div id="historia" class="w3-container goodpay-modal page">
                         <h1>Nossa História</h1>
                         <strong>De Matão para o mundo: A origem do GoodPay</strong>
+                        <hr>
                         <p>
                             O GoodPay não nasceu em uma sala de reuniões corporativa, mas sim dentro de um ambiente de
                             educação e transformação: a Etec Sylvio de Matos Carvalho, na cidade de Matão. Somos um
@@ -298,9 +340,10 @@
                             tecnológica responsável e cidadania.
                         </p>
                     </div>
-                    <div id="missao" class="w3-content page">
+                    <div id="missao" class="w3-container goodpay-modal page">
                         <h1>Missão e Valores</h1>
                         <strong>Tecnologia com propósito humano</strong>
+                        <hr>
                         <p>
                             Nosso motor é a crença de que a tecnologia de ponta deve ser acessível e voltada para o bem
                             comum. No GoodPay, trabalhamos para construir pontes em vez de muros.
@@ -321,9 +364,10 @@
                             Excelência Técnica: Rigor e qualidade em tudo o que desenvolvemos. <br>
                         </p>
                     </div>
-                    <div id="tecnologia" class="w3-content page">
+                    <div id="tecnologia" class="w3-container goodpay-modal page">
                         <h1>Tecnologia e Inovação</h1>
                         <strong>Arquitetura de ponta para impacto real</strong>
+                        <hr>
                         <p>
                             Para que um projeto de empreendedorismo social alcance seu verdadeiro potencial, ele precisa
                             de uma infraestrutura robusta, segura e escalável. É por isso que o GoodPay foi arquitetado
@@ -344,54 +388,53 @@
                 </div>
             </div>
         </section>
-        <section name="modal-cadastro">
+        <section name="cadastro-usuario">
             <div id="id02" class="w3-modal">
                 <div class="w3-modal-content w3-animate-top w3-card-4">
                     <header class="w3-container w3-pale-green">
-                        <span class="w3-button w3-display-topright"
-                            onclick="document.getElementById('id02').style.display='none'">
-                            &times;
-                        </span>
-                        <h2>Registre-se no GoodPay</h2>
+                        <span onclick="document.getElementById('id02').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Cadastro de GoodPay</h2>
                     </header>
-                    <form action="" class="w3-container w3-padding-64 goodpay-cadastro">
-                        <p>
-                            <input class="w3-input" type="text">
-                            <label>Nome</label>
-                        </p>
-                        <p>
-                            <input class="w3-input" type="text">
-                            <label>Senha</label>
-                        </p>
-                        <p>
-                            <input class="w3-input" type="text">
-                            <label>E-mail</label>
-                        </p>
+                    <div class="w3-container">
+                        <h2>Cadastre-se:</h2>
                         <hr>
+                        <div class="w3-center">
+                            <img class="w3-circle w3-margin-top" src="./img/goodpay.png" alt="avatar"
+                                style="width: 30%;">
+                        </div>
+                        <form action="" class="w3-container">
+                            <p>
+                                <input id="email" class="w3-input" type="email" placeholder="Entre e-mail" />
+                            </p>
+                            <p>
+                                <input id="senha" class="w3-input" type="password" placeholder="Digite sua senha" />
+                            </p>
+                            <p>
+                                <input id="nome" class="w3-input" type="text" placeholder="Digite seu nome" />
+                            </p>
+                            <p>
+                                <select class="w3-select" id="regra">
+                                    <option value="" disabled selected>Selecione a Opção</option>
+                                    <option value="admin">Admin</option>
+                                    <option value="user">User</option>
+                                </select>
+                            </p>
+                            <p>
+                                <input class="w3-radio" type="radio" name="genero" value="masculino" checked />
+                                <label>Masculino</label>
+                                <input class="w3-radio" type="radio" name="genero" value="feminino" />
+                                <label>Feminino</label>
+                                <input class="w3-radio" type="radio" name="genero" value="outro" />
+                                <label>Outro</label>
+                                <input class="w3-radio" type="radio" name="genero" value="pnf" />
+                                <label>Prefiro não informar</label>
+                            </p>
+                        </form>
                         <p>
-                            <select class="w3-select" id="regra">
-                                <option value="" disabled selected>Escolha um perfil</option>
-                                <option value="admin">Administrador</option>
-                                <option value="user">Usuário</option>
-                            </select>
+                            <button class="w3-btn w3-block w3-green">Enviar Cadastro</button>
                         </p>
-                        <p>
-                            <input type="radio" name="genero" id="genero" checked value="F" class="w3-radio">
-                            <label>Feminino</label>
-                            <input type="radio" name="genero" id="genero" value="M" class="w3-radio">
-                            <label>Masculino</label>
-                            <input type="radio" name="genero" id="genero" value="O" class="w3-radio">
-                            <label>Outro</label>
-                            <input type="radio" name="genero" id="genero" value="N" class="w3-radio">
-                            <label>Não Declarar</label>
-                        </p>
-                        <hr>
-                        <p>
-                            <button class="w3-btn w3-block w3-green">
-                                Enviar Cadastro
-                            </button>
-                        </p>
-                    </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -400,13 +443,29 @@
                 <div class="w3-modal-content w3-animate-top w3-card-4">
                     <header class="w3-container w3-pale-green">
                         <span onclick="document.getElementById('id03').style.display='none'"
-                            class="w3-button w3-display-topright">
-                            &times;
-                        </span>
+                            class="w3-button w3-display-topright">&times;</span>
                         <h2>Canal de Notícias</h2>
                     </header>
-                    <iframe width="900" height="520" src="https://rss.app/embed/v1/imageboard/tBlddFad5RJjBoxo"
-                        frameborder="0"></iframe>
+                    <div style="padding: 20px;">
+                        <script src="https://elfsightcdn.com/platform.js" async></script>
+                        <div class="elfsight-app-f9ee57ad-4298-4698-8d0f-eb3a23c83fd2" data-elfsight-app-lazy></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section name="modal-ecomoney">
+            <div id="id04" class="w3-modal">
+                <div class="w3-modal-content w3-animate-top w3-card-4">
+                    <header class="w3-container w3-pale-green">
+                        <span onclick="document.getElementById('id04').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Sustentabilidade e Negocios</h2>
+                    </header>
+                    <div style="padding: 20px;">
+                        <!-- Elfsight Social Feed | Untitled Social Feed -->
+                        <script src="https://elfsightcdn.com/platform.js" async></script>
+                        <div class="elfsight-app-56fd5496-c8fa-4ccd-bbbf-809f1d6633c1" data-elfsight-app-lazy></div>
+                    </div>
                 </div>
             </div>
         </section>

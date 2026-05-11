@@ -3,12 +3,9 @@ body {
     margin-right: auto;
     padding: 0;
     font-family: 'Poppins', 'Verdana', 'Arial';
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(130, 197, 24, 1) 100%);
     max-width: 1090px;
-    background: #22C1C3;
-    background: -webkit-linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(191, 245, 147, 0.47) 75%);
-    background: -moz-linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(191, 245, 147, 0.47) 75%);
-    background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(191, 245, 147, 0.47) 75%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22C1C3", endColorstr="#BFF593", GradientType=1);
 }
 
 h2,
@@ -74,7 +71,10 @@ p {
 }
 .goodpay-faq{
     background-color: aliceblue;
-    border-radius: 20px;
     padding: 10px;
     margin-top: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.goodpay-modal{
+    height: 460px;
 }

@@ -73,8 +73,8 @@ async function loginGoodPay() {
 
 async function loadUser() {
     document.getElementById('nome-card').innerHTML = localStorage.email
-    document.getElementById('resumo').innerHTML = '<label>E-mail</label> ${localStorage.email}'
+    document.getElementById('resumo').innerHTML = `<label>E-mail</label> ${localStorage.email}`
 }
-document.addEventListener('DOMcontentLoaded', () => {
+document.addEventListener('DOMContentLoaded',() =>{
     loadUser()
 })

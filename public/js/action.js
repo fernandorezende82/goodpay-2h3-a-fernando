@@ -60,6 +60,8 @@ async function loginGoodPay() {
 
         if (userValided) {
             window.location.href = './dashboard.html'
+            localStorage.setItem('email', email)
+
         } else {
             alert('Erro ao processar, seu email ou senha estao incorretos')
         }
@@ -68,3 +70,11 @@ async function loginGoodPay() {
         console.log(error)
     }
 }
+
+async function loadUser() {
+    document.getElementById('nome-card').innerHTML = localStorage.email
+    document.getElementById('resumo').innerHTML = '<label>E-mail</label> ${localStorage.email}'
+}
+document.addEventListener('DOMcontentLoaded', () => {
+    loadUser()
+})
